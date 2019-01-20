@@ -1,0 +1,55 @@
+.app-form-input-select {
+  background: #fff;
+  padding: 1px 20px;
+  font-family: $fontMain;
+  font-weight: 400;
+  color: #464646;
+  width: calc(100% - 40px);
+  border-bottom: 0.5px solid #DEDEDC;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  outline: none;
+  margin: 5px 0px;
+  cursor: pointer;
+  position: relative;
+  min-width: 150px;
+  .input-select-label {
+    font-family: $fontMain;
+    position: absolute;
+    left: 20px;
+    top: -2px;
+    font-size: 0.7em;
+    transition: all .2s;
+    color: #272727;
+  }
+  &:hover {
+    background: #e2e2e2;
+  }
+  .input-select-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .input-select-icon {
+      font-size: 2em;
+    }
+  }
+
+  .input-select-list {
+    position: absolute;
+    background: #f6f6f4;
+    width: calc(100% - 40px);
+    left: 0;
+    z-index: 9;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: none;
+    overflow: hidden;
+    transition: all .2s;
+    .input-select-list-option {
+      padding: 5px 5px;
+      &:hover {
+        background: #e2e2e2;
+      }
+    }
+  }
+}

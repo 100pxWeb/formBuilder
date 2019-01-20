@@ -1,0 +1,13 @@
+.app-builder-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 41px 10px rgba(0,0,0, .17);
+    padding: 20px;
+    border: 1px solid rgb(226, 226, 226);
+    .form-input-container {
+        border: 1px solid rgb(223, 223, 223);
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+}

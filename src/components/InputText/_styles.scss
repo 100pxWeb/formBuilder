@@ -1,0 +1,43 @@
+.app-form {
+    width: 100%;
+    font-size: 0.9em;
+    position: relative;
+  }
+  .app-form-input-error {
+    font-family: $fontMain;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: #ff6359;
+  }
+  .app-form-input {
+    position: relative;
+    width: 100%;
+  }
+  .app-form-input-label {
+    font-family: $fontMain;
+    position: absolute;
+    left: 20px;
+    transition: all .2s;
+    color: #464646;
+  }
+  input {
+    background: #fff; 
+    border: none;
+    padding: 15px 20px 10px 20px;
+    font-family: $fontMain;
+    font-weight: 400;
+    color: #000;
+    width: calc(100% - 40px);
+    border-bottom: 0.5px solid #DEDEDC;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+    margin: 5px 0px;
+    &:focus {
+      background: #e2e2e2;
+    }
+    &:hover {
+      background: #e2e2e2;
+    }
+  }
